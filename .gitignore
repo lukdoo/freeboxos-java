@@ -6,3 +6,7 @@ target
 *.war
 *.ear
 /bin/
+
+.idea
+*.iml
+

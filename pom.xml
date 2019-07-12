@@ -5,7 +5,7 @@
 
 	<groupId>org.matmaul.freeboxos</groupId>
 	<artifactId>freeboxos-client</artifactId>
-	<version>0.4.2</version>
+	<version>0.4.3-SNAPSHOT</version>
 
 	<name>freeboxos-client</name>
 	<url>https://github.com/matmaul/freeboxos-java</url>
@@ -36,8 +36,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.1</version>
 				<configuration>
-					<source>1.5</source>
-					<target>1.5</target>
+					<source>1.8</source>
+					<target>1.8</target>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -118,8 +118,8 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<maven.compiler.source>1.5</maven.compiler.source>
-		<maven.compiler.target>1.5</maven.compiler.target>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
 		<encoding>UTF-8</encoding>
 	</properties>
 

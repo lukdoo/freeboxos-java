@@ -27,6 +27,7 @@ import org.codehaus.jackson.annotate.JsonIgnoreProperties;
  * 
  */
 @JsonAutoDetect(fieldVisibility = Visibility.ANY)
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Session {
 	protected String session_token;
 	protected Permissions permissions;
